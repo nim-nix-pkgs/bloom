@@ -1,5 +1,5 @@
 {
-  description = ''Efficient Bloom filter implementation in Nim using MurmurHash3.'';
+  description = ''Efficient Bloom filter implementation for Nimrod using MurmurHash3.'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
