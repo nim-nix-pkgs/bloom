@@ -11,6 +11,7 @@
   inputs.src-bloom-master.ref   = "refs/heads/master";
   inputs.src-bloom-master.owner = "boydgreenfield";
   inputs.src-bloom-master.repo  = "nimrod-bloom";
+  inputs.src-bloom-master.dir   = "";
   inputs.src-bloom-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
